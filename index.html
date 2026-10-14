@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Profile</title>
+    
+    <style>
+        body {
+            background-color: #f1f5f9; 
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .profile-card {
+            background-color: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 16px;
+            padding: 35px;
+            max-width: 500px;
+            width: 100%;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #2563eb;
+            font-size: 28px;
+            font-weight: 800;
+            text-align: center;
+            margin-top: 0;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #f1f5f9;
+            padding-bottom: 15px;
+        }
+        h2 {
+            color: #1e293b;
+            font-size: 18px;
+            font-weight: 700;
+            margin-top: 20px;
+            margin-bottom: 8px;
+        }
+        p, ul {
+            color: #475569;
+            font-size: 15px;
+            line-height: 1.6;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 6px;
+        }
+        .contact-section {
+            text-align: center;
+            margin-top: 25px;
+            padding-top: 20px;
+            border-top: 1px solid #f1f5f9;
+        }
+        .btn-email {
+            display: inline-block;
+            background-color: #2c3b5c;
+            color: #b32222;
+            font-weight: 600;
+            text-decoration: none;
+            padding: 10px 24px;
+            border-radius: 10px;
+            transition: background-color 0.3s ease;
+        }
+        .btn-email:hover {
+            background-color: #1d4ed8;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-card">
+        <h1>Nabeel khan</h1>
+        <h2>About Me</h2>
+        <p>
+            I am MERN stack deveplover and cybersecuirty student in 5th semester in abasyn university peshawar.
+        </p>
+        <h2>My Skills</h2>
+        <ul>
+            <li>HTML5 & CSS</li>
+            <li>Computer Networking</li>
+            <li>Node js</li>
+            <li>Git & GitHub</li>
+        </ul>
+        <div class="contact-section">
+            <h2>Contact Me</h2>
+            <a href="nabeelkhan@example.com" class="btn-email">
+                Send an Email
+            </a>
+        </div>
+    </div>
+</body>
+</html>
